@@ -1,0 +1,9 @@
+{
+  "realm": "WFS_Test",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAowc+qNt6SlSDzdUpVXcWi2/UGArB45GDD74AvwfYlhhAwDJdhh7epk5mfYcAmBgVdnOY7WL4AzBjnTuGQbv8Z6TkzJ5s/exrlmHUuYCoe6JzNvJlkcb0AVwL/NDQiTnQdu/BkVG4Gp2vpU/aTcdt3jlD1w23jxRw10P3QIT4rqdRPqZYcK0+MG25U3OZt80EXymIK/O49pPhW/1v2TzeHapWqFhfGCruzLR5s18cmihhJcjZmLfw7hxLKut1qS4Yf1QB2zErQuD/bNucXf1plUD4TFt1nk+b1VllQw6suGmXobm5r6j+Y3z0gTAvAKbn71nJ+UFUxaJIfS8KgQlozwIDAQAB",
+  "auth-server-url": "http://localhost:8080/auth",
+  "ssl-required": "none",
+  "resource": "gateway-ui",
+  "public-client": true,
+  "use-resource-role-mappings": true
+}

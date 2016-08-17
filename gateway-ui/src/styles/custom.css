@@ -1,0 +1,511 @@
+.center-block {
+    width:1000px;
+    padding:7px;
+}
+
+.customContainer {
+    position: relative;
+    height: 40rem;
+}
+
+.jumbotron {
+    position: absolute;
+    top: 10%;
+}
+
+.navbar-brand
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.los-nav {
+    height: 10px;
+    min-height: 46px;
+    margin-left: -16px;
+    margin-right: -30px;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.los-nav .navbar-nav li {
+    padding: 13px 10px;
+}
+.los-nav .navbar-nav li:hover, .los-nav .navbar-nav li.active{
+    background-color: transparent;
+    color: #58585b;
+    box-shadow: inset 0px -3px 0px 0px #38a8df;
+}
+.navbar-los-header {
+    margin-top: 7px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #38a8df;
+    margin-left: 20px;
+    cursor: pointer
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+}
+
+a:focus{
+    outline:none;
+}
+
+/*.row {
+  padding-top: 1px;
+}*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+    overflow-x: hidden;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -30px;
+    /* Pad bottom by footer height */
+    padding: 0 0 30px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    color:#ffffff;
+    background-color:#337ab7
+}
+
+/*.fa-spin{
+    color:#843534;
+}*/
+
+.angular-center-container {
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display:table;
+    pointer-events: none;
+    z-index:9999;
+}
+.angular-centered {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+/*---------   radio button styling              --------------- */
+
+.customlabel { font-size: 18px; color: #337ab7 ; padding:5px}
+
+/*.with-font,
+.with-font {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}   
+.with-font ~ .customlabel:after,
+.with-font ~ .customlabel:after {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f1db";
+    letter-spacing: 10px;
+    font-size: 1.2em;
+    color: #535353;
+    width: 1.4em;
+}
+
+.with-font:checked ~ .customlabel:after,
+.with-font:checked ~ .customlabel:after  {
+    content: "\f00c";
+    font-size: 1.2em;
+    color:#337ab7;
+    letter-spacing: 5px;
+}
+.with-font ~ .customlabel:after {        
+    content: "\f096";
+}
+.with-font:checked ~ .customlabel:after {
+    content: "\f046";        
+    color: #337ab7;
+}
+.with-font:focus ~ .customlabel:after,
+.with-font:focus ~ .customlabel:after,
+.with-font:focus ~ .customlabel,
+.with-font:focus ~ .customlabel
+{                
+    color:#337ab7;
+}*/
+
+/* ----------------  profile styling ------------------- */
+
+.details {
+    min-height: 355px;
+    display: inline-block;
+}
+
+.rating {
+    padding-left:40px;
+}
+
+.skillLine {
+    display:inline-block;
+    width:100%;
+    padding: 3px 4px;
+}
+
+.skills {
+    text-decoration:underline;
+}
+
+div.skill {
+    background: #F58723;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 3px 4px;
+    width:70px;
+}
+section{
+    margin-bottom:20px;
+    padding:30px 20px 0 20px;
+}
+.navbar {
+    margin-bottom:0px;
+}
+.panel-group .panel {
+    border-radius:0;
+}
+.los-nav ul.navbar-nav li.active {
+    border-bottom: 1px solid #38a8df;
+}
+/* Responsible and Accountable Styling */
+.employee-container {
+    padding-left: 0;
+}
+.employee-image {
+    padding-left: 0;
+    float: left;
+    width: 150px;
+    position: relative;
+    height: 150px;
+    background-color: #f5f5f5;
+    margin-right: 15px;
+}
+.employee-text {
+    padding-top: 10px;
+    padding-left: 0;
+}
+.employee-text-name{
+    font-size: 22px;
+}
+.panel-default {
+    border: none;
+}
+
+
+.los-reports-container ul li:hover {
+    background-color: transparent;
+}
+
+/* Comments Styling*/
+.jquery-comments ul.main li.comment .comment-wrapper {
+    padding: 1em 0em;
+}
+
+.jquery-comments ul.main li.comment .name {}
+
+.jquery-comments ul.main li.comment .wrapper {
+    margin-top: 10px;
+}
+
+.jquery-comments ul.main li.comment .wrapper .content {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.jquery-comments ul.main li.comment .actions .action {
+    color: #1c7eae;
+    font-size: .8em;
+}
+
+.jquery-comments ul.main li.comment:hover {
+    background: transparent;
+}
+.jquery-comments ul.main li.comment .child-comments i.profile-picture {
+    font-size: 3.4em;
+}
+.jquery-comments .commenting-field.main .profile-picture,.jquery-comments ul.main li.comment .comment-wrapper > .profile-picture {
+    color: #fff;
+    margin-right: .8em;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background: #e0e0e0;
+    /* padding: 0px; */
+}
+.jquery-comments .commenting-field.main .profile-picture {
+    margin-right: .2em;
+}
+
+.jquery-comments {
+    margin-right: -15px;
+}
+
+#comments-container {
+    padding-top: 10px;
+    padding-right: 0px;
+}
+
+.fa-user:before {
+    font-size: .8em;
+    line-height: 1.2em;
+}
+.los-nav-item {
+    margin: 0;
+    padding-top: 10px;
+}
+.los-nav-item.active {
+    font-weight:bold;
+    text-decoration: underline;
+}
+span.send.save.highlight-background.enabled {
+    background: #38a8df;
+    border-radius: 3px;
+}
+
+/* Editable Area Styling */
+.editable{
+    border: none;
+    text-decoration: none !important;
+}
+.editable-trigger-sm,.editable-trigger {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+.editable-trigger-sm i {
+    font-size: 14px;
+    color: #e0e0e0;
+}
+.create-los-text {
+    color: #f68220;
+    height: 18px;
+    position: relative;
+    border: none;
+    margin-right: 18px;
+    padding: 0;
+}
+
+.create-lob-text {
+    color: #f68220;
+    font-size: 18px;
+    font-style: normal;
+    height: 25px;
+    /* margin: 10px 12px 10px 12px; */
+    position: relative;
+    border: none;
+    margin-right: 18px;
+    padding: 0;
+}
+.create-lob-text::-webkit-input-placeholder,
+.create-lob-text::-moz-placeholder,
+.create-lob-text:-ms-input-placeholder,
+.create-lob-text:-moz-placeholder {
+    color: #f68220;
+}
+.create-lob-text:focus, .create-los-text:focus {
+    outline:none;
+}
+.create-lob {
+    padding: 10px 3px 10px 13px;
+    border-right: 1px solid #f5f5f5;
+    height: 40px;
+    position: relative;
+}
+.create-lob.fresh:after, .create-los.fresh:after {
+    content: "\f055";
+    font: normal normal normal 20px/1 FontAwesome;
+    position: absolute;
+    right: 12px;
+    top: 11px;
+    color: #f68220;
+}
+
+.editable-empty, .editable-empty:hover, .editable-empty:focus{
+    color:#f68220;
+}
+.editable-trigger {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.create-lob {
+    padding: 10px 3px 10px 13px;
+    border-right: 1px solid #f5f5f5;
+}
+
+.create-lob .editable-trigger i, .create-los .editable-trigger-sm i {
+    color: #f68220;
+}
+
+.create-lob .editable-input{
+    width: 80%;
+}
+.create-los {
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 10px;
+    position: relative;
+}
+.create-los.fresh:after {
+    top: 0px;
+    right: 6px;
+}
+.editable-trigger-sm i:hover {
+    color:#58585b;
+}
+.form-inline .editable-input textarea.form-control.input-large {
+    width: 100%;
+}
+
+.editable-input {
+    width: 90%;
+}
+
+.editable-container.editable-inline {
+    width: 100%;
+}
+
+.editable-input input.form-control.input-sm {
+    width: 100%;
+}
+.control-group.form-group {
+    width: 90%;
+}
+
+.editable-clear-x {
+    right: 15px;
+}
+
+.fileinput-button.file-image {
+    position: absolute;
+    bottom: 10px;
+    right: 5%;
+}
+
+.fileinput-button.file-upload {
+    position: relative;
+    color: #e0e0e0;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.fresh-trigger {
+    font-size: 14px;
+    color: #e0e0e0;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.fresh-trigger:hover,.fresh-trigger:active,.fresh-trigger:focus,.fileinput-button.file-upload:hover{
+    color:#38a8df;
+}
+
+/* Landing Page Styling */
+.landing-container {
+    margin-top: 240px;
+}
+
+.landing-label {
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.landing-container i{
+    width: 100%;
+    text-align: center;
+}
+
+.fa-7x {
+    font-size: 7em;
+}
+
+.category-item {
+    padding-left: 10px;
+    margin-bottom: 5px;
+    cursor:pointer;
+}
+
+.category-item:hover {
+    text-decoration: underline;
+}
+
+.panel-body {
+    padding-left: 35px;
+    padding-right: 9px;
+}
+
+.jquery-comments .textarea {
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+}
+
+.progress {
+    display: none;
+    position: absolute;
+    width: 90%;
+    top: 48%;
+    left: 5%;
+}
+
+@media (min-width: 992px) {
+    .pull-right-sm {
+        float: right;
+    }
+}
+
+accordion-group div {
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .col-md-6,.col-md-10{
+        padding-left:15px;
+        padding-right: 15px;
+    }
+    .employee-container {
+        margin-bottom: 10px;
+    }
+    .control-group.form-group {
+        width: 80%;
+    }
+}
