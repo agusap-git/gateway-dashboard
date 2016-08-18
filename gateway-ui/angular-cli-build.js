@@ -17,7 +17,8 @@ module.exports = function(defaults) {
       'rxjs/**/*.+(js|js.map)',
       '@angular/**/*.+(js|js.map)',
       'core-js/**/*.+(js|js.map)',
-      'angular2-jwt/**/*.js'
+      'primeng/**/*.+(js|js.map)',
+      'primeui/**/*.+(js|png|css|gif)'
     ]
   });
 };
