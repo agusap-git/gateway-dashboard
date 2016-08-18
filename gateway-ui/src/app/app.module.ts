@@ -1,11 +1,31 @@
-import { NgModule }      from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
-import { AppComponent }  from './app.component';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {RequestOptions, HttpModule} from "@angular/http";
+import {FormsModule} from "@angular/forms";
+import {AppComponent}  from './app.component';
+import {MyBaseRequestOptions} from "./baseRequest";
+import {KeycloakService} from "./keycloak";
+import {AuthGuard} from "./common/guards/auth-guard";
+import {routing} from "./app.routing";
+import {HomeComponent} from "./components/home/home.component";
 
 @NgModule({
-  imports: [ BrowserModule ],
-  declarations: [ AppComponent ],
-  bootstrap: [ AppComponent ]
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    routing
+  ],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+  ],
+  bootstrap: [AppComponent],
+  providers: [
+    {provide: RequestOptions, useClass: MyBaseRequestOptions},
+    KeycloakService,
+    AuthGuard
+  ]
 })
-export class AppModule { }
+export class AppModule {
+}
