@@ -15,6 +15,7 @@ public abstract class Entity implements Serializable {
 
     @JsonIgnore
     private boolean admin;
+
     @JsonIgnore
     private String id;
 
