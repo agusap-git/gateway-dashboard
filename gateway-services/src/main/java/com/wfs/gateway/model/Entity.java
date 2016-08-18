@@ -1,6 +1,6 @@
 package com.wfs.gateway.model;
 
-import org.springframework.util.StringUtils;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import java.io.Serializable;
 
@@ -13,7 +13,9 @@ public abstract class Entity implements Serializable {
     public static final String EVENT_CREATED = "created";
     public static final String EVENT_EDITED = "edited";
 
+    @JsonIgnore
     private boolean admin;
+    @JsonIgnore
     private String id;
 
     public abstract String getId();
