@@ -19,7 +19,7 @@
     'app':                        { main: 'main.js',  defaultExtension: 'js' },
     'rxjs':                       { defaultExtension: 'js' },
     'angular2-in-memory-web-api': { main: 'index.js', defaultExtension: 'js' },
-    'primeng': { defaultExtension: 'js' },
+    'primeng': { defaultExtension: 'js' }
   };
 
   var ngPackageNames = [
@@ -32,7 +32,7 @@
     'platform-browser-dynamic',
     'router',
     'router-deprecated',
-    'upgrade',
+    'upgrade'
   ];
 
   // Individual files (~300 requests):

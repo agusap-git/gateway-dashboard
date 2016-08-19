@@ -1,0 +1,21 @@
+[
+    {"id": 1, "partnerCode": "1", "partnerName": "Airways", "partyName": "dsad231ff","active": true,"creationDate":"10/10/2015","createdBy":"Jorge Huerta","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 2, "partnerCode": "2", "partnerName": "Aeromexico", "partyName": "dsad2xxx","active": true,"creationDate":"11/10/2015","createdBy":"Jorge Huerta","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 3, "partnerCode": "3", "partnerName": "Volaris", "partyName": "yyyd231ff","active": true,"creationDate":"12/10/2013","createdBy":"Julio Cesar","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 4, "partnerCode": "4", "partnerName": "JetAir", "partyName": "abc123","active": false,"creationDate":"11/09/2015","createdBy":"Alan Mejia","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 5, "partnerCode": "5", "partnerName": "Viva", "partyName": "sdsdsd","active": true,"creationDate":"11/09/2014","createdBy":"Agustin Altamirano","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 6, "partnerCode": "6", "partnerName": "Aerobus", "partyName": "ddd2233","active": true,"creationDate":"10/10/2015","createdBy":"Jorge Huerta","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 7, "partnerCode": "7", "partnerName": "American Airlines", "partyName": "322ddsdsds","active": false,"creationDate":"10/06/2015","createdBy":"Julion Alvarez","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 8, "partnerCode": "8", "partnerName": "Lufhtansa", "partyName": "5446hhju","active": true,"creationDate":"04/10/2015","createdBy":"El Komander","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 9, "partnerCode": "9", "partnerName": "United Airlines", "partyName": "5567uhgff","active": false,"creationDate":"01/01/2016","createdBy":"El Chapo de Sinaloa","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 1, "partnerCode": "1", "partnerName": "Airways", "partyName": "dsad231ff","active": true,"creationDate":"10/10/2015","createdBy":"Jorge Huerta","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 2, "partnerCode": "2", "partnerName": "Aeromexico", "partyName": "dsad2xxx","active": true,"creationDate":"11/10/2015","createdBy":"Jorge Huerta","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 3, "partnerCode": "3", "partnerName": "Volaris", "partyName": "yyyd231ff","active": true,"creationDate":"12/10/2013","createdBy":"Julio Cesar","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 4, "partnerCode": "4", "partnerName": "JetAir", "partyName": "abc123","active": false,"creationDate":"11/09/2015","createdBy":"Alan Mejia","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 5, "partnerCode": "5", "partnerName": "Viva", "partyName": "sdsdsd","active": true,"creationDate":"11/09/2014","createdBy":"Agustin Altamirano","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 6, "partnerCode": "6", "partnerName": "Aerobus", "partyName": "ddd2233","active": true,"creationDate":"10/10/2015","createdBy":"Jorge Huerta","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 7, "partnerCode": "7", "partnerName": "American Airlines", "partyName": "322ddsdsds","active": false,"creationDate":"10/06/2015","createdBy":"Julion Alvarez","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 8, "partnerCode": "8", "partnerName": "Lufhtansa", "partyName": "5446hhju","active": true,"creationDate":"04/10/2015","createdBy":"El Komander","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"},
+    {"id": 9, "partnerCode": "9", "partnerName": "United Airlines", "partyName": "5567uhgff","active": false,"creationDate":"01/01/2016","createdBy":"El Chapo de Sinaloa","lastUpdatedDate":"01/01/2015","lastUpdatedBy":"Jorge Huerta"}
+]
+

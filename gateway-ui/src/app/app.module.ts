@@ -8,6 +8,8 @@ import {KeycloakService} from "./keycloak";
 import {AuthGuard} from "./common/guards/auth-guard";
 import {routing} from "./app.routing";
 import {HomeComponent} from "./components/home/home.component";
+import {ConfigureBusinessPartnerComponent} from "./components/configure-business-partner/configure-business-partner.component"
+import {BusinessPartnerService} from "./common/services/business-partner.service";
 
 @NgModule({
   imports: [
@@ -19,11 +21,13 @@ import {HomeComponent} from "./components/home/home.component";
   declarations: [
     AppComponent,
     HomeComponent,
+    ConfigureBusinessPartnerComponent
   ],
   bootstrap: [AppComponent],
   providers: [
     {provide: RequestOptions, useClass: MyBaseRequestOptions},
     KeycloakService,
+    BusinessPartnerService,
     AuthGuard
   ]
 })
