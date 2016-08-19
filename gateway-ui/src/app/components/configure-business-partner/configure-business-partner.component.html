@@ -1,0 +1,29 @@
+<div class="jumbotron">
+  <h1>Configure Business Partner</h1>
+  <p>This section is to configure a business partner, for example: Create, Read, Update and Delete</p>
+</div>
+
+<p-dataTable #dt [value]="businessPartners" selectionMode="single" [rows]="10" [paginator]="true" [pageLinks]="3" sortMode="multiple">
+  <header>
+    <div class="ui-helper-clearfix">
+      <button class="btn btn-primary" type="button" pButton icon="fa-file-o" iconPos="left" label="CSV" (click)="dt.exportCSV()" style="float:left">Export</button>
+    </div>
+  </header>
+  <footer>
+    <div style="text-align: left">
+      <button class="btn btn-default" type="submit">Add</button>
+      <button class="btn btn-default" type="submit">Update</button>
+      <button class="btn btn-default" type="submit">Delete</button>
+      <button class="btn btn-default" type="submit">Search</button>
+    </div>
+  </footer>
+  <p-column field="partnerCode" header="Partner Code" [sortable]="true" [filter]="true" filterMatchMode="contains"></p-column>
+  <p-column field="partnerName" header="Partner Name" [sortable]="true" [filter]="true" filterMatchMode="contains"></p-column>
+  <p-column field="partyName" header="Party Name" [sortable]="true" [filter]="true" filterMatchMode="contains"></p-column>
+  <p-column field="active" header="Active"></p-column>
+  <p-column field="creationDate" header="Creation Date" [sortable]="true" [filter]="true" filterMatchMode="contains"></p-column>
+  <p-column field="createdBy" header="Created By" [sortable]="true" [filter]="true" filterMatchMode="contains"></p-column>
+  <p-column field="lastUpdatedDate" header="Last Updated Date" [sortable]="true" [filter]="true" filterMatchMode="contains"></p-column>
+  <p-column field="lastUpdatedBy" header="Last Updated By" [sortable]="true" [filter]="true" filterMatchMode="contains"></p-column>
+</p-dataTable>
+
