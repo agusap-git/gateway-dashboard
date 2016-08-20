@@ -64,11 +64,7 @@ gulp.task("libs", function () {
   gulp.src(['@angular/**/*.+(js|js.map)'], {cwd: 'node_modules'})
     .pipe(gulp.dest(bases.vendor + "@angular"));
 
-  //@core-js libs
-  gulp.src(['core-js/**/*.+(js|js.map)'], {cwd: 'node_modules'})
-    .pipe(gulp.dest(bases.vendor + "core-js"));
-
-  //@core-js libs
+  //core-js libs
   gulp.src(['core-js/**/*.+(js|js.map)'], {cwd: 'node_modules'})
     .pipe(gulp.dest(bases.vendor + "core-js"));
 
@@ -76,7 +72,7 @@ gulp.task("libs", function () {
   gulp.src(['primeng/**/*.+(js|js.map)'], {cwd: 'node_modules'})
     .pipe(gulp.dest(bases.vendor + "primeng"));
 
-  //primeng
+  //primeui
   gulp.src(['primeui/**/*'], {cwd: 'node_modules'})
     .pipe(gulp.dest(bases.vendor + "primeui"));
 
