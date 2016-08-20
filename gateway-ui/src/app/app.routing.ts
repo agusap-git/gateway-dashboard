@@ -1,7 +1,6 @@
 import { Routes, RouterModule } from '@angular/router';
-import {AuthGuard} from "./common/guards/auth-guard";
-import {HomeComponent} from "./components/home/home.component";
-import {ConfigureBusinessPartnerComponent} from "./components/configure-business-partner/configure-business-partner.component";
+import {HomeComponent} from './components/home/home.component';
+import {ConfigureBusinessPartnerComponent} from './components/configure-business-partner/configure-business-partner.component';
 
 
 const appRoutes: Routes = [

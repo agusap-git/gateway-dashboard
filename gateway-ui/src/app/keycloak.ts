@@ -1,6 +1,7 @@
 import {Injectable} from '@angular/core';
 
 declare var Keycloak: any;
+
 @Injectable()
 export class KeycloakService {
     static auth: any = {};
@@ -29,9 +30,9 @@ export class KeycloakService {
     static logout() {
         KeycloakService.auth.loggedIn = false;
         KeycloakService.auth.authz = null;
-        var http = location.protocol;
-        var slashes = http.concat("//");
-        var host = slashes.concat(window.location.host);
+        let http = location.protocol;
+        let slashes = http.concat('//');
+        let host = slashes.concat(window.location.host);
         KeycloakService.auth.authObj.logout({ redirectUri: host });
         // window.location.href = KeycloakService.auth.logoutUrl;
     }
@@ -53,7 +54,9 @@ export class KeycloakService {
             if (refreshed) {
             //    console.log(KeycloakService.auth.authObj);
             } else {
-                // console.log('Token not refreshed, valid for ' + Math.round(KeycloakService.auth.authObj.tokenParsed.exp + KeycloakService.auth.authObj.timeSkew - new Date().getTime() / 1000) + ' seconds');
+                // console.log('Token not refreshed,
+                // valid for ' + Math.round(KeycloakService.auth.authObj.tokenParsed.exp +
+                // KeycloakService.auth.authObj.timeSkew - new Date().getTime() / 1000) + ' seconds');
             }
         }).error(function() {
             // console.log('Failed to refresh token');

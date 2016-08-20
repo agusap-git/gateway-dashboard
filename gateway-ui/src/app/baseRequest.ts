@@ -1,5 +1,5 @@
-import {KeycloakService} from "./keycloak";
-import {BaseRequestOptions, Headers} from "@angular/http";
+import {KeycloakService} from './keycloak';
+import {BaseRequestOptions, Headers} from '@angular/http';
 
 export class MyBaseRequestOptions extends BaseRequestOptions {
   headers: Headers = new Headers({

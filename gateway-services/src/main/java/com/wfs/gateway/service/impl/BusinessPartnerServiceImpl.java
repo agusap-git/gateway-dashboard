@@ -22,8 +22,10 @@ public class BusinessPartnerServiceImpl implements BusinessPartnerService {
         List<BusinessPartner> results = new ArrayList<>();
         BusinessPartner tmp = null;
 
-        tmp = new BusinessPartner("1", "partnerCode", "partnerName", "partyName", new Boolean(true), "createdBy", "lastUpdateDate", "lastUpdatedDate", "lastUpdatedBy", BusinessPartner.STATUS_ACTIVE );
-        results.add(tmp);
+        for (int i = 0; i < 10; i++) {
+            tmp = new BusinessPartner( "1" , "partnerCode " + String.valueOf(i), "partnerName", "partyName", new Boolean(true), "createdBy", "lastUpdateDate", "lastUpdatedDate", "lastUpdatedBy", BusinessPartner.STATUS_ACTIVE );
+            results.add(tmp);
+        }
 
         return results;
     }

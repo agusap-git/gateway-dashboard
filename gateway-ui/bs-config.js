@@ -3,5 +3,10 @@
  */
 module.exports = {
   "port": 4200,
-  "server": { "baseDir": "./dist" }
+  "files": [
+    "dist/**/*.{html,htm,css,js}"
+  ],
+  "server": {
+    "baseDir": "dist"
+  }
 };

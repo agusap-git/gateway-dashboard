@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {BusinessPartnerService} from "../../common/services/business-partner.service";
-import {IBusinessPartner} from "../../common/domain/IBusinessPartner";
+import {BusinessPartnerService} from '../../common/services/business-partner.service';
+import {IBusinessPartner} from '../../common/domain/IBusinessPartner';
 import { DataTable, Column, Header, Footer, PanelMenu } from 'primeng/primeng';
 
 @Component({
@@ -16,7 +16,7 @@ export class ConfigureBusinessPartnerComponent implements OnInit {
   constructor(private businessPartnerService: BusinessPartnerService) {
   }
 
-  ngOnInit(){
+  ngOnInit() {
     this.businessPartnerService.getBusinessPartners()
       .subscribe(
         data => this.businessPartners = data,

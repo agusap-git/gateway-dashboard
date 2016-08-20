@@ -1,13 +1,13 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app.module';
-import {KeycloakService} from "./keycloak";
+import {KeycloakService} from './keycloak';
 
 KeycloakService.init().then(
-  o=> {
+  o => {
     platformBrowserDynamic().bootstrapModule(AppModule);
   },
-  x=> {
+  x => {
     window.location.reload();
   }
 ).catch(reason => console.log(reason));
