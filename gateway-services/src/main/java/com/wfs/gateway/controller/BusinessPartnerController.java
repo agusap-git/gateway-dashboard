@@ -27,7 +27,9 @@ public class BusinessPartnerController extends BaseController {
     @RequestMapping(value = "/business-partners", method = RequestMethod.GET)
     public List<BusinessPartner> getAllBusinessPartners(@CurrentUser UserDetails userDetails)
     {
-        System.out.println("User Roles: " + userDetails.getRoles());
+        if( userDetails != null ) {
+            System.out.println("User Roles: " + userDetails.getRoles());
+        }
         return businessPartnerService.getAllBusinessPartners();
     }
 }
