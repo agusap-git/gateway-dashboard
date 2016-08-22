@@ -4,6 +4,8 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
+import {MyBaseRequestOptions} from '../../baseRequest';
+
 
 @Injectable()
 export class BusinessPartnerService {
@@ -13,7 +15,6 @@ export class BusinessPartnerService {
   getBusinessPartners() {
     // return this._http.get('/resources/data/business-partners.json')
     //   .map(res => res.json());
-
     return this._http.get('http://localhost:4201/rest/business-partners')
       .map(res => res.json());
   }

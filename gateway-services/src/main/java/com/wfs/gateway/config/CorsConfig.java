@@ -24,7 +24,7 @@ public class CorsConfig {
         config.addAllowedMethod("GET");
         config.addAllowedMethod("PUT");
         config.addAllowedMethod("POST");
-        source.registerCorsConfiguration("/**", config);
+        source.registerCorsConfiguration("/rest/**", config);
         return new CorsFilter(source);
     }
 }

@@ -25,7 +25,7 @@ import {BusinessPartnerService} from './common/services/business-partner.service
   ],
   bootstrap: [AppComponent],
   providers: [
-    {provide: RequestOptions, useClass: MyBaseRequestOptions},
+    { provide: RequestOptions, useClass: MyBaseRequestOptions },
     KeycloakService,
     BusinessPartnerService,
     AuthGuard

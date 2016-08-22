@@ -1,6 +1,8 @@
 package com.wfs.gateway.controller;
 
 import com.wfs.gateway.model.BusinessPartner;
+import com.wfs.gateway.model.security.CurrentUser;
+import com.wfs.gateway.model.security.UserDetails;
 import com.wfs.gateway.service.BusinessPartnerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,8 +25,9 @@ public class BusinessPartnerController extends BaseController {
     }
 
     @RequestMapping(value = "/business-partners", method = RequestMethod.GET)
-    public List<BusinessPartner> getAllBusinessPartners()
+    public List<BusinessPartner> getAllBusinessPartners(@CurrentUser UserDetails userDetails)
     {
+        System.out.println("User Roles: " + userDetails.getRoles());
         return businessPartnerService.getAllBusinessPartners();
     }
 }
